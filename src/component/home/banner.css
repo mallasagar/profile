@@ -1,0 +1,79 @@
+.banner{
+    width: 100%;
+    margin: 0;
+}
+.columnone{
+    padding-top: 300px;
+    padding-bottom: 270px;
+}
+#frontend{
+    font-size: 42px;
+}
+
+#reactjs{
+    font-size: 22px;
+} 
+
+
+/* .banner{
+    margin-Top:"50px";
+    margin-Bottom:"50px";
+} */
+
+
+@media screen and (max-width:600px) {
+    
+    .columnone{
+       padding-top:90px;
+       padding-bottom: 0px; 
+    }
+    .columntwo{
+        padding-top:0px;
+        padding-bottom: 0px;
+            }
+
+    #frontend{
+        font-size: 28px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        
+    }
+    
+    #reactjs{
+        font-size: 12px;
+        
+        align-items: center;
+    } 
+    
+}
+
+/* .bannercontainer{
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.banneritem1{
+        font-size: 65px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 250px;
+        margin-bottom: 250px;
+        line-height: 35px;
+    
+}
+.banneritem1 p{
+    color: whitesmoke;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.banneritem2{
+
+    
+} */

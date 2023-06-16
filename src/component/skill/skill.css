@@ -1,0 +1,48 @@
+/* 
+
+div img{
+    height:80px; 
+    width:80px;
+    transition: width 1s, height 1s; 
+    z-index: 0;
+
+
+}
+div img:hover{
+     height: 120px;
+     width: 120px;
+    transform: scale(1);
+
+}    */
+
+
+#skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+.container img{
+    height:80px; 
+    width:80px;
+    transition: width 1s, height 1s; 
+    z-index: 0;
+}
+
+.container img:hover{
+    height: 120px;
+    width: 120px;
+   transform: scale(1);
+
+}   
+@media screen and (max-width:800px){
+    #skills{
+        display: none;
+        margin-top: 30px;
+        padding-top: 20px;
+    
+    }
+}

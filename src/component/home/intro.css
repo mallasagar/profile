@@ -1,0 +1,19 @@
+@media  screen and  (max-width:700px) {
+    
+  #introabout{
+    font-size: 14px;
+  }
+  #introedu{
+    font-size: 14px;
+}
+}
+@media  screen and  (max-width:500px) {
+    
+  #introabout{
+    font-size: 10px;
+  }
+    #introedu{
+        font-size: 10px;
+    }
+
+}
