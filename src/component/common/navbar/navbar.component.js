@@ -6,7 +6,7 @@ function Mynavbar() {
     <>
             <div className="navbar border border-info  ">
                 <div className="abbout " ><a href='#intro'>About me</a></div>
-                <div className="skills" ><a href='#skills'>Skills</a></div>
+                <div className="skills" ><a href='#skill'>Skills</a></div>
                 <div className="project"><a href='#projects'>Project</a></div>
                 <div className="contact"><a href='#mycontact'>Contact</a></div>
             </div>

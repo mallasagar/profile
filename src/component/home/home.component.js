@@ -8,6 +8,8 @@ import Skill from '../skill/skill'
 // import About from '../about/about'
 import Banner from '../home/banner'
 import Intro from './intro'
+import Skillinfo from '../skill/skillinfo'
+
 
 
 function Myhomecomponent() {
@@ -17,7 +19,9 @@ function Myhomecomponent() {
     <Mynavbar></Mynavbar>
     <Banner></Banner>
     <Intro></Intro>
-    {/* <About></About> */}
+     {/* <About></About>  */}
+     <Skillinfo></Skillinfo>
+
     <Skill></Skill>
     <Project></Project>
     <Mycontact></Mycontact>

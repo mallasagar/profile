@@ -22,7 +22,9 @@ div img:hover{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 0px;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .container img{

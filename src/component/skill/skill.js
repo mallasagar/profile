@@ -12,7 +12,7 @@ import github from '../../image/github-logo.png'
 function Skill() {
   return (
     <>
-        <div id='skills' className='container'>
+        <div id='skills' className='container '>
           <img src={html} alt="Logo" className='col-1'  />
           <img src={css} alt="Logo" className='col-1'  />
           <img src={js} alt="Logo" className='col-1'  />

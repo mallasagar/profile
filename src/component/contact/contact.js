@@ -10,12 +10,9 @@ function Mycontact() {
     <hr></hr>
 
     <div className='row bg-light rounded-4 justify-content-center align-items-center '>
-
-
         <div className='col-10 col-sm-10 col-md-5  py-5 text-center  '>
           <h4>Email Me on:</h4>
           <p>mallasagar0101@gmail.com</p>
-
         </div>
         <div className='col-10 col-sm-10 col-md-5 py-5 px-2  justify-content-center   '>
               <div className='contactform bg-dark text-light p-5  rounded-4 '>
@@ -31,22 +28,13 @@ function Mycontact() {
                  <textarea className="form-control " rows="4"></textarea>
                  <span></span>
                  <div className='container row justify-content-center mt-4'>
-
-                 <button   className='bg-danger text-white rounded-3 col-12 col-sm-8 col-md-6'  disabled>Submit</button>
+                    <button   className='bg-danger text-white rounded-3 col-12 col-sm-8 col-md-6'  disabled>Submit</button>
                  </div>
-
-
               </div>
 
         </div>
-
         {/* style={{width:"30%", height:"35px", marginTop:"5px", marginLeft:'35%'}} */}
-
-
-
-
     </div>
-
    </div>
 </>
   )

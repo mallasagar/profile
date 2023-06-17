@@ -4,7 +4,7 @@ import './intro.css'
 function Intro() {
   return (
     <>
-    <div id='intro' className='container-fluid row  justify-content-center  bg-transparent text-dark my-6 py-5'>
+    <div id='intro' className='container-fluid     bg-transparent text-dark my-5 py-5 border border-primary'>
       {/* Column first */}
             <div id='introabout' className='col-md-6 col-10-6 col-10 py-5 px-5 text-center'>
               <h3>Introduction</h3>
