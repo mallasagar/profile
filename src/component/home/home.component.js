@@ -19,10 +19,10 @@ function Myhomecomponent() {
     <Mynavbar></Mynavbar>
     <Banner></Banner>
     <Intro></Intro>
+    <Skill></Skill>
      {/* <About></About>  */}
      <Skillinfo></Skillinfo>
 
-    <Skill></Skill>
     <Project></Project>
     <Mycontact></Mycontact>
     <Myfooter></Myfooter>

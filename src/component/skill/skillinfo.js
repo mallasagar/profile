@@ -7,7 +7,7 @@ function Skillinfo() {
       <div id='skill' className='Container-fluid d-flex flex-row justify-content-evenly bg-whitesmoke  '>
         <div  className=' card col-md-8 my-5  text- py-3 text-center px-3 mt-6 bg-whitesmoke ' style={{width:"50rem"}}>
               <h5 className="card-title mt-5">Programming Language</h5>
-          <div className="card-body  ">
+          <div className="card-body ">
             {/* HTML */}
               <div className="progress  " style={{margin:"12px"}} role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
               <div className="progress-bar overflow-visible text-dark" style={{width: "80%", backgroundColor:"#E44D26" }}>HTML  80%</div>
@@ -21,8 +21,8 @@ function Skillinfo() {
               <div className="progress-bar overflow-visible text-dark" style={{width: "55%", backgroundColor:'#F7DF1E' }}>JS 55%</div>
               </div>
               {/* Bootstrap */}
-              <div className="progress  " style={{margin:"12px"}} role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div className="progress-bar overflow-visible text-dark" style={{width: "70%", backgroundColor:'#840AFA' }}>Bootstrap 75%</div>
+              <div className="progress  " style={{margin:"12px"}} role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <div className="progress-bar overflow-visible text-dark" style={{width: "85%", backgroundColor:'#840AFA' }}>Bootstrap 85%</div>
               </div>
               {/* Sass */}
               <div className="progress  " style={{margin:"12px"}} role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">

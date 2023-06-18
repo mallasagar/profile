@@ -5,7 +5,7 @@ function Mycontact() {
   return (
     <>
     
-    <div id='mycontact' className='container-fluid bg-white text-dark justify-content-center  mt-5 mb-3 py-5 border border-info'>
+    <div id='mycontact' className='container-fluid bg-white text-dark justify-content-center  mt-5 mb-3 py-5 '>
     <h3 className='text-center mt-4'>Contact</h3>
     <hr></hr>
 

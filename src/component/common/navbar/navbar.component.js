@@ -1,16 +1,37 @@
 import React from 'react'
-import './navbar.css'
+import { Normalnav,Mobilenav } from './navigation'
+import {useState} from 'react'
+import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
+
 
 function Mynavbar() {
+
+  let[open, setopen]=useState(false)
+
+  const hamburgericon=
+  <div className='col-12  align-items-center'>
+    <AiOutlineMenu size={"30px"} 
+                          className=' d-sm-flex d-md-none  py-1  d-block ms-5 justify-content-end    '
+                          onClick={()=>{setopen(!open)}}>
+                      </AiOutlineMenu>
+    </div>
+  
+  const closeicon= <AiOutlineClose size={"30px"} 
+                          className=' d-sm-flex d-md-none  py-1  d-flex  col-12  '
+                          onClick={()=>{setopen(!open)}}>
+                      </AiOutlineClose>
+  
+ const closemobilemenu=()=>setopen(false);
+
+
   return (
     <>
-            <div className="navbar border border-info  ">
-                <div className="abbout " ><a href='#intro'>About me</a></div>
-                <div className="skills" ><a href='#skill'>Skills</a></div>
-                <div className="project"><a href='#projects'>Project</a></div>
-                <div className="contact"><a href='#mycontact'>Contact</a></div>
-            </div>
-        </>
+    <Normalnav></Normalnav>
+    
+        {open ? closeicon : hamburgericon}
+        {open && <Mobilenav ismobile={true} closemobilemenu={closemobilemenu}/>}
+       
+    </>
   )
 }
 
