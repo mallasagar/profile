@@ -23,6 +23,8 @@ function Myhomecomponent() {
      {/* <About></About>  */}
      <Skillinfo></Skillinfo>
 
+
+
     <Project></Project>
     <Mycontact></Mycontact>
     <Myfooter></Myfooter>

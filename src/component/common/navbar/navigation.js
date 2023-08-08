@@ -6,7 +6,7 @@ function Normalnav() {
   return (
     <>     
     
-            <div className="navbar border border-danger d-none d-md-flex  d-sm-none">
+            <div className="navbar  d-none d-md-flex  d-sm-none opacity-75">
                 <div className="abbout " ><a href='#intro'>About me</a></div>
                 <div className="skills" ><a href='#skill'>Skills</a></div>
                 <div className="project"><a href='#projects'>Project</a></div>

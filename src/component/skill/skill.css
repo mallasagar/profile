@@ -16,7 +16,7 @@ div img:hover{
 }    */
 
 
-#skills{
+.skillimg{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -27,14 +27,14 @@ div img:hover{
 
 }
 
-.container img{
+.skillimg img{
     height:80px; 
     width:80px;
     transition: width 1s, height 1s; 
     z-index: 0;
 }
 
-.container img:hover{
+.skillimg img:hover{
     height: 120px;
     width: 120px;
    transform: scale(1);

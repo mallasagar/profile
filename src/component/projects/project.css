@@ -1,0 +1,10 @@
+
+
+@media screen and (max-width:600pc) {
+    
+    .projectcard div{
+        margin-bottom: 20px;
+        width: 10rem;
+    
+    }
+}
