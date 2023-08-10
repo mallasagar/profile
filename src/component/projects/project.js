@@ -6,21 +6,6 @@ function Project() {
     <>
    <h5 id='projects'   className='text-center  pt-5 mt-5 mb-3'>Projects</h5>
    <hr className='container'></hr>
-
-   {/* <div className='projectimg container col-2 border border-info'>
-        <img src={require('../../image/css-3.png')} style={{width:'100%', zIndex:'-1'}} alt='image'>
-        </img>
-        <div className="border border-info center" > Bottom Left</div>
-   </div>
-        <img src={require('../../image/css-3.png')}  className='col-2'alt='image'></img>
-        <img src={require('../../image/css-3.png')} className='col-2' alt='image'></img>
-        
-   */}
-
-
-
-
-    {/* <hr id='projects' className='container'></hr> */}
     <div  className='container  justify-content-evenly bg-light rounded-5  '>
     <div className='projectcard row justify-content-evenly pt-3 pb-5  px-3 align-item-center  '>
 

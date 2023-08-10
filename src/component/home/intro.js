@@ -21,8 +21,8 @@ function Intro() {
               <h3>Education</h3>
               <hr></hr>
               <h5><strong>Bachelor’s in Information Technology</strong> </h5>
-                              Aryan school of engineering
-                                <p>Mid-Baneshwor,Kathmandu, Nepal</p>  
+              <p><strong> Aryan school of engineering</strong></p>
+              <p>Mid-Baneshwor,Kathmandu, Nepal</p>  
             </div>
     </div>
    </>

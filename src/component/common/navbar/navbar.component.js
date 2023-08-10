@@ -27,7 +27,6 @@ function Mynavbar() {
   return (
     <>
     <Normalnav></Normalnav>
-    
         {open ? closeicon : hamburgericon}
         {open && <Mobilenav ismobile={true} closemobilemenu={closemobilemenu}/>}
        

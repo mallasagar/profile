@@ -1,22 +1,12 @@
-/* .container{
-    position: -webkit-sticky; 
-    position: sticky;
-    top: 0;
-} */
+
 *{
     margin:0;
     padding: 0;
 }
-
 body{
     margin:0 ;
     padding:0;
 }
-
-/* Mobile screens */
-
-
-
 
 .mobilenav a{
     text-decoration: whitesmoke;

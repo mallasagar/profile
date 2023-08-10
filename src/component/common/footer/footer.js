@@ -7,7 +7,7 @@ function Myfooter() {
   return (
     <>
     <div id='myfoot '>
-    <div className='container-fluid bg-dark text-white '>
+    <div className='container-fluid bg-black text-white '>
           <div className='footericon col-12 align-items-center justify-content-center p-3'>
              Connect: <RxDividerVertical className=' col-1 px-2' style={{height:"32px", width:"32px", color:"white"}}></RxDividerVertical>
            <a href="https://www.facebook.com/mallasagar46/"> 

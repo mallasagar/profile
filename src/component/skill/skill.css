@@ -1,21 +1,3 @@
-/* 
-
-div img{
-    height:80px; 
-    width:80px;
-    transition: width 1s, height 1s; 
-    z-index: 0;
-
-
-}
-div img:hover{
-     height: 120px;
-     width: 120px;
-    transform: scale(1);
-
-}    */
-
-
 .skillimg{
     display: flex;
     flex-direction: row;
@@ -24,7 +6,6 @@ div img:hover{
     margin-top: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 .skillimg img{

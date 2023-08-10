@@ -10,9 +10,8 @@ function Mycontact() {
   const[email, setemail]=useState('')
   const[emailerr, setemailerr]=useState('')
   const[message, setmessage]=useState('')
-  const[messageerr, setmessageerr]=useState('')
+  // const[messageerr, setmessageerr]=useState('')
 
-  const Numbers=[1,2,3,4,5,6,7,8,9,0]
 
 
   useEffect(()=>{
@@ -41,15 +40,15 @@ function Mycontact() {
     }
   },[email])
 
-  useEffect(()=>{
-    if(!message){
-      setmessageerr("Enter your Message ")
-    }
+  // useEffect(()=>{
+  //   if(!message){
+  //     setmessageerr("Enter your Message ")
+  //   }
     
-    else{
-      setmessageerr(' ')
-    }
-  },[message])
+  //   else{
+  //     setmessageerr(' ')
+  //   }
+  // },[message])
 
 
 const handleSubmit=(ev)=>{
@@ -60,14 +59,16 @@ const handleSubmit=(ev)=>{
     message:message
   })
   .then(function (response) {
-    alert("Submit Successful")
-    setname('')
-    setemail('')
-    setmessage('')
+    alert("Successfully Submited")
+    
   })
+  
   .catch(function (error) {
     alert("Error in Submission")
   });
+  setemail('')
+  setname('')
+  setmessage('')
   
 
 }
@@ -87,17 +88,17 @@ const handleSubmit=(ev)=>{
         </div>
         <form  onSubmit={handleSubmit} className='col-10 col-sm-10 col-md-5 py-5  justify-content-center   '>
               <div className='contactform bg-dark text-light p-5  rounded-4 '>
-                 <input type='name' name='name' placeholder='Full Name' className='rounded-3 px-1' onChange={(ev)=>{
+                 <input type='name'value={name} name='name' placeholder='Full Name' className='rounded-3 px-1' onChange={(ev)=>{
                    setname(ev.target.value)
                   }}></input>
                   <label className='text-danger' >{nameerr}</label>
                  <span></span>
-                 <input type='email'name='email' placeholder='Email' className='rounded-3 px-1' onChange={(ev)=>{setemail(ev.target.value)}}></input>
+                 <input type='email' value={email} name='email' placeholder='Email' className='rounded-3 px-1' onChange={(ev)=>{setemail(ev.target.value)}}></input>
                  <span></span>
                  <label  className='text-danger'>{emailerr}</label>
             
                  {/* <input type='text' className=' rounded-3' style={{ height:"150px"}}></input> */}
-                 <textarea className="form-control   rounded-3 px-1" placeholder={messageerr} type='message' name='message' onChange={(ev)=>{setmessage(ev.target.value)}} rows="4"></textarea>
+                 <textarea className="form-control   rounded-3 px-1" value={message} placeholder='Write your messages.' type='message' name='message' onChange={(ev)=>{setmessage(ev.target.value)}} rows="4"></textarea>
                  <span></span>
                  <label className='text-danger'></label>
                  <div className='container row justify-content-center mt-4'>

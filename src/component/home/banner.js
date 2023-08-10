@@ -6,7 +6,7 @@ function Banner() {
   const el = React.useRef(null);
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Frontend Developer','Video Editor','Frontend Developer','Video Editor'],
+      strings: ['Frontend Developer','React Developer','Frontend Developer','Video Editor'],
       typeSpeed: 100,
       backSpeed: 90,
      
@@ -23,7 +23,6 @@ function Banner() {
   return (
    <>
 
-
    {/* USING BOOTSTRAP */}
     <div className='banner container-fluid flex row bg-black text-light  justify-content-evenly align-items-center text-center  ' >
       <div className=' columnone col-md-4  col-sm-5 col-8  ' >
@@ -33,40 +32,13 @@ function Banner() {
       <div className='columntwo col-md-4    col-sm-5 col-10 ' >
       <img
             src="https://media.licdn.com/dms/image/D5603AQGLMdyvgg2rMw/profile-displayphoto-shrink_800_800/0/1686031180942?e=1691625600&v=beta&t=GpltgFLkLNn3hjZwLH68ae8PoNOYQOzNQI2nuK7qr8g"
-            alt="sagar malla"
+            alt="profile pic"
             className="img-fluid rounded-start my-5   "
             style={{width:"300px", height:"300px"}}
           />
       </div>
     </div>
-
-
-
-
-
-
-
-
-   {/* USING CSS */}
-         {/* <div className='bannercontainer'>
-          <div className='banneritem1'>Frontend developer
-          <p>React js</p></div>
-          <div className='banneritem2'>
-          <img
-            src="https://media.licdn.com/dms/image/D5603AQGLMdyvgg2rMw/profile-displayphoto-shrink_800_800/0/1686031180942?e=1691625600&v=beta&t=GpltgFLkLNn3hjZwLH68ae8PoNOYQOzNQI2nuK7qr8g"
-            alt="sagar malla"
-            className="img-fluid rounded-start my-5 "
-            style={{width:"300px", height:"300px"}}
-          />
-            </div>
-        </div> 
-   </div> */}
-
    </>
   )
 }
-
 export default Banner
-
-
-// https://formsubmit.co/el/suzura
