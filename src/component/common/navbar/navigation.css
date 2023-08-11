@@ -9,11 +9,14 @@ body{
 }
 
 .mobilenav a{
-    text-decoration: whitesmoke;
-    color:black;
+    /* text-decoration: whitesmoke; */
+    /* color:rgb(34, 32, 32); */
     font-size: large;
+
     
 }
+
+
 
 div a:hover{
     opacity: 1;

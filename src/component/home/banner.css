@@ -1,11 +1,20 @@
 .banner{
     width: 100%;
     margin: 0;
+    background-image: linear-gradient(to top , rgb(26, 24, 32), rgb(22,22,22), rgb(22,22,22), rgb(22,22,22));
+  
 }
+
+
 .columnone{
     padding-top: 300px;
     padding-bottom: 270px;
+    font-size: 72px;
+    background: -webkit-linear-gradient( #eee, #757070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #frontend{
     font-size: 42px;
 }
@@ -13,6 +22,14 @@
 #reactjs{
     font-size: 22px;
 } 
+
+
+.bannerpic{
+    -webkit-mask-image: url(cool.jpg);
+    mask-image: url(cool.jpg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+}
 
 
 @media screen and (max-width:600px) {

@@ -1,11 +1,10 @@
 import React from 'react'
-
 import './navigation.css'
 
 function Normalnav() {
   return (
     <>     
-        <div className="navbar  d-none d-md-flex  d-sm-none opacity-100">
+        <div className="navbar  d-none d-md-flex  d-sm-none  " style={{background:"rgb(22,22,22)"}}>
                 <div className="abbout " ><a href='#intro'>About me</a></div>
                 <div className="skills" ><a href='#skill'>Skills</a></div>
                 <div className="project"><a href='#projects'>Project</a></div>

@@ -78,37 +78,41 @@ const handleSubmit=(ev)=>{
     <>
     
     <div id='mycontact' className='container-fluid bg-white text-dark justify-content-center  mt-5 mb-3 py-5 '>
-    <h3 className='text-center mt-4'>Contact</h3>
-    <hr></hr>
+      <h3 className='text-center mt-4'>Contact</h3>
+      <hr></hr>
 
-    <div className='row bg-light rounded-4 justify-content-center align-items-center '>
-        <div className='col-10 col-sm-10 col-md-5  py-5 text-center  '>
-          <h4>Email Me on:</h4>
-          <p>mallasagar0101@gmail.com</p>
-        </div>
-        <form  onSubmit={handleSubmit} className='col-10 col-sm-10 col-md-5 py-5  justify-content-center   '>
-              <div className='contactform bg-dark text-light p-5  rounded-4 '>
-                 <input type='name'value={name} name='name' placeholder='Full Name' className='rounded-3 px-1' onChange={(ev)=>{
-                   setname(ev.target.value)
-                  }}></input>
-                  <label className='text-danger' >{nameerr}</label>
-                 <span></span>
-                 <input type='email' value={email} name='email' placeholder='Email' className='rounded-3 px-1' onChange={(ev)=>{setemail(ev.target.value)}}></input>
-                 <span></span>
-                 <label  className='text-danger'>{emailerr}</label>
-            
-                 {/* <input type='text' className=' rounded-3' style={{ height:"150px"}}></input> */}
-                 <textarea className="form-control   rounded-3 px-1" value={message} placeholder='Write your messages.' type='message' name='message' onChange={(ev)=>{setmessage(ev.target.value)}} rows="4"></textarea>
-                 <span></span>
-                 <label className='text-danger'></label>
-                 <div className='container row justify-content-center mt-4'>
-                    <button   className='bg-danger text-white rounded-3 col-12 col-sm-8 col-md-6'onSubmit={handleSubmit} >Submit</button>
-                 </div>
-              </div>
+      <div className='row bg-light rounded-4 justify-content-center align-items-center '>
+           {/* first column */}
+          <div className='col-10 col-sm-10 col-md-5  py-5 text-center  '>
+              <h4>Email Me on:</h4>
+              <p>mallasagar0101@gmail.com</p>
+          </div>
+          {/* second column */}
+          <form  onSubmit={handleSubmit} className='col-10 col-sm-10 col-md-5 py-5  justify-content-center   '>
+                  <div className='contactform bg-dark text-light p-5  rounded-4 '>
+                    <input type='name'value={name} name='name' placeholder='Full Name' className='rounded-3 px-1' onChange={(ev)=>{
+                      setname(ev.target.value) 
+                      }} required></input>
+                      <label className='text-danger' >{nameerr}</label>
+                    <span></span>
+                    <input type='email' value={email} name='email' placeholder='Email'  className='rounded-3 px-1' 
+                    onChange={(ev)=>{setemail(ev.target.value)}} required></input>
+                    <span></span>
+                    <label  className='text-danger'>{emailerr}</label>
+                
+                    {/* <input type='text' className=' rounded-3' style={{ height:"150px"}}></input> */}
+                    <textarea className="form-control   rounded-3 px-1" maxLength={"400"} value={message} placeholder='Write your messages.' 
+                    type='message' name='message' onChange={(ev)=>{setmessage(ev.target.value)}} rows="4" required></textarea>
+                    <span></span>
+                    <label className='text-danger'></label>
+                    <div className='container row justify-content-center mt-4'>
+                        <button   className='bg-danger text-white rounded-3 col-12 col-sm-8 col-md-6'onSubmit={handleSubmit} >Submit</button>
+                    </div>
+                  </div>
+                  
 
-        </form>
-        {/* style={{width:"30%", height:"35px", marginTop:"5px", marginLeft:'35%'}} */}
-    </div>
+          </form>
+     </div>
    </div>
 </>
   )

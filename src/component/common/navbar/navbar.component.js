@@ -2,6 +2,7 @@ import React from 'react'
 import { Normalnav,Mobilenav } from './navigation'
 import {useState} from 'react'
 import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
+import "./navigation.css"
 
 
 function Mynavbar() {
